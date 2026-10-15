@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Órbita - Estude com IA</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="topo">
+
+  <!-- Manchas de luz do fundo -->
+  <div class="glow glow-violeta"></div>
+  <div class="glow glow-rosa"></div>
+  <div class="glow glow-ciano"></div>
+
+  <!-- MENU -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <input type="checkbox" id="menu-check" class="menu-check">
+
+      <a class="logo" href="#topo"><span class="logo-icone"></span>Órbita</a>
+
+      <nav class="nav-links">
+        <a href="#recursos">Recursos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#precos">Preços</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+
+      <a class="btn btn-principal btn-pequeno" href="#baixar">Baixar</a>
+
+      <label class="menu-btn" for="menu-check" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="container hero">
+      <div class="hero-texto">
+        <span class="selo">App de estudos com IA</span>
+        <h1>Estude menos.<br><span class="destaque">Lembre mais.</span></h1>
+        <p class="hero-sub">A Órbita transforma suas aulas, PDFs e anotações em resumos, flashcards e um plano de revisão que se ajusta ao seu ritmo.</p>
+        <div class="hero-botoes">
+          <a class="btn btn-principal" href="#baixar">Começar grátis</a>
+          <a class="btn btn-fantasma" href="#como-funciona">Ver como funciona</a>
+        </div>
+        <p class="hero-nota">Grátis para começar. Disponível para iOS e Android.</p>
+      </div>
+
+      <div class="hero-visual">
+        <div class="cena">
+          <div class="anel"></div>
+          <div class="esfera"></div>
+          <div class="cubo">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+
+          <div class="flutua">
+            <div class="telefone-wrap">
+              <div class="telefone">
+                <div class="tela">
+                  <div class="notch"></div>
+
+                  <div class="tela-topo">
+                    <div>
+                      <small>Qui, 15 out</small>
+                      <strong>Hoje</strong>
+                    </div>
+                    <div class="avatar-app"></div>
+                  </div>
+
+                  <div class="tela-card tela-meta">
+                    <div class="anel-progresso"><span>72%</span></div>
+                    <div>
+                      <small>Meta do dia</small>
+                      <strong>Faltam 25 min</strong>
+                    </div>
+                  </div>
+
+                  <div class="tela-card">
+                    <small>Revisão de hoje</small>
+                    <strong>Biologia celular</strong>
+                    <div class="barra"><i></i></div>
+                    <small>12 flashcards para revisar</small>
+                  </div>
+
+                  <div class="balao balao-ia">Quer que eu transforme a aula de hoje em um resumo de 1 página?</div>
+                  <div class="balao balao-eu">Quero!</div>
+                </div>
+              </div>
+
+              <div class="chip chip-a"><i></i>Resumo pronto</div>
+              <div class="chip chip-b"><i></i>12 flashcards</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAIXA -->
+    <section class="container faixa">
+      <div class="faixa-item">Funciona sem internet</div>
+      <div class="faixa-item">Resumos em segundos</div>
+      <div class="faixa-item">Seus dados ficam só com você</div>
+    </section>
+
+    <!-- RECURSOS -->
+    <section class="secao" id="recursos">
+      <div class="container">
+        <div class="cabecalho">
+          <span class="rotulo">Recursos</span>
+          <h2>Tudo o que você precisa para estudar melhor</h2>
+          <p>Cole um texto, envie um PDF ou fale com o tutor. A Órbita cuida da organização.</p>
+        </div>
+
+        <div class="grade-3">
+          <article class="cartao vidro inclina">
+            <div class="icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4"/><path d="M10 12h6M10 16h6"/></svg></div>
+            <h3>Resumos automáticos</h3>
+            <p>Envie uma aula ou um PDF e receba um resumo claro, com os pontos principais em destaque.</p>
+          </article>
+
+          <article class="cartao vidro inclina">
+            <div class="icone"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="14" height="12" rx="2"/><path d="M7 7V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2"/></svg></div>
+            <h3>Flashcards inteligentes</h3>
+            <p>Os cartões aparecem na hora certa para você revisar, antes de esquecer o conteúdo.</p>
+          </article>
+
+          <article class="cartao vidro inclina">
+            <div class="icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8"/></svg></div>
+            <h3>Tutor por chat</h3>
+            <p>Tire dúvidas a qualquer hora e peça explicações com exemplos do seu curso.</p>
+          </article>
+
+          <article class="cartao vidro inclina">
+            <div class="icone"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+            <h3>Plano de estudos</h3>
+            <p>Informe a data da prova e o plano distribui as matérias pelos dias que você tem.</p>
+          </article>
+
+          <article class="cartao vidro inclina">
+            <div class="icone"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg></div>
+            <h3>Modo foco</h3>
+            <p>Sessões curtas com cronômetro e pausas, sem notificações atrapalhando.</p>
+          </article>
+
+          <article class="cartao vidro inclina">
+            <div class="icone"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 12l3 3 7-7"/></svg></div>
+            <h3>Simulados</h3>
+            <p>Questões geradas a partir do seu material, com correção e explicação de cada resposta.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section class="secao" id="como-funciona">
+      <div class="container">
+        <div class="cabecalho">
+          <span class="rotulo">Como funciona</span>
+          <h2>Três passos e você já está estudando</h2>
+        </div>
+
+        <div class="grade-3 passos">
+          <article class="cartao vidro">
+            <div class="passo-num">1</div>
+            <h3>Envie seu material</h3>
+            <p>Foto do caderno, PDF, slides ou texto colado. A Órbita lê tudo.</p>
+          </article>
+          <article class="cartao vidro">
+            <div class="passo-num">2</div>
+            <h3>A IA organiza</h3>
+            <p>Ela cria o resumo, separa os conceitos e monta os flashcards.</p>
+          </article>
+          <article class="cartao vidro">
+            <div class="passo-num">3</div>
+            <h3>Revise na hora certa</h3>
+            <p>Você recebe lembretes curtos nos momentos em que a revisão mais ajuda.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS (exemplos fictícios) -->
+    <section class="secao" id="depoimentos">
+      <div class="container">
+        <div class="cabecalho">
+          <span class="rotulo">Depoimentos</span>
+          <h2>Quem usa, recomenda</h2>
+        </div>
+
+        <div class="grade-3">
+          <figure class="cartao vidro inclina">
+            <blockquote>Cheguei na semana da prova com tudo resumido e revisado. Foi a primeira vez que não precisei virar a noite.</blockquote>
+            <figcaption><span class="avatar">MT</span><div><strong>Marina T.</strong><small>Engenharia</small></div></figcaption>
+          </figure>
+          <figure class="cartao vidro inclina">
+            <blockquote>Os flashcards aparecem exatamente quando eu ia esquecer. Memorizar anatomia ficou muito mais leve.</blockquote>
+            <figcaption><span class="avatar">RS</span><div><strong>Rafael S.</strong><small>Medicina</small></div></figcaption>
+          </figure>
+          <figure class="cartao vidro inclina">
+            <blockquote>Uso o tutor para tirar dúvida de leis e artigos. Ele explica com exemplos e eu entendo de verdade.</blockquote>
+            <figcaption><span class="avatar">BL</span><div><strong>Beatriz L.</strong><small>Direito</small></div></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREÇOS (valores de exemplo) -->
+    <section class="secao" id="precos">
+      <div class="container">
+        <div class="cabecalho">
+          <span class="rotulo">Preços</span>
+          <h2>Comece de graça, evolua quando quiser</h2>
+        </div>
+
+        <div class="grade-3 planos">
+          <article class="cartao vidro plano">
+            <h3>Grátis</h3>
+            <p class="preco">R$ 0<small>/mês</small></p>
+            <ul>
+              <li>5 resumos por mês</li>
+              <li>Flashcards básicos</li>
+              <li>Modo foco</li>
+            </ul>
+            <a class="btn btn-fantasma" href="#baixar">Começar grátis</a>
+          </article>
+
+          <article class="cartao plano plano-destaque">
+            <span class="etiqueta">Mais escolhido</span>
+            <h3>Estudante</h3>
+            <p class="preco">R$ 19<small>/mês</small></p>
+            <ul>
+              <li>Resumos ilimitados</li>
+              <li>Tutor por chat</li>
+              <li>Plano de estudos e simulados</li>
+            </ul>
+            <a class="btn btn-branco" href="#baixar">Assinar agora</a>
+          </article>
+
+          <article class="cartao vidro plano">
+            <h3>Turma</h3>
+            <p class="preco">R$ 79<small>/mês</small></p>
+            <ul>
+              <li>Até 5 pessoas</li>
+              <li>Materiais compartilhados</li>
+              <li>Tudo do plano Estudante</li>
+            </ul>
+            <a class="btn btn-fantasma" href="#baixar">Falar com a gente</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="secao" id="faq">
+      <div class="container faq">
+        <div class="cabecalho">
+          <span class="rotulo">Dúvidas</span>
+          <h2>Perguntas frequentes</h2>
+        </div>
+
+        <details class="vidro">
+          <summary>A Órbita funciona sem internet?<span class="mais"></span></summary>
+          <p>Sim. Seus resumos e flashcards ficam salvos no celular. Para gerar conteúdo novo com a IA, você precisa estar conectado.</p>
+        </details>
+        <details class="vidro">
+          <summary>Posso usar meus próprios PDFs e slides?<span class="mais"></span></summary>
+          <p>Pode. Envie arquivos PDF, imagens do caderno ou texto colado e a Órbita organiza o conteúdo para você.</p>
+        </details>
+        <details class="vidro">
+          <summary>Meus materiais ficam privados?<span class="mais"></span></summary>
+          <p>Seus materiais são só seus. Você pode apagar qualquer arquivo ou a conta inteira quando quiser.</p>
+        </details>
+        <details class="vidro">
+          <summary>Posso cancelar a assinatura quando quiser?<span class="mais"></span></summary>
+          <p>Sim. O cancelamento é feito no próprio app e vale a partir do fim do período já pago.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="container cta-wrap" id="baixar">
+      <div class="cta">
+        <div class="esfera esfera-cta"></div>
+        <h2>Pronto para estudar do jeito certo?</h2>
+        <p>Baixe a Órbita e transforme seu próximo material em um plano de estudos em poucos minutos.</p>
+        <a class="btn btn-branco" href="#topo">Começar grátis</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-inner">
+      <a class="logo" href="#topo"><span class="logo-icone"></span>Órbita</a>
+      <nav>
+        <a href="#recursos">Recursos</a>
+        <a href="#precos">Preços</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+      <small>© 2026 Órbita. Projeto de demonstração.</small>
+    </div>
+  </footer>
+
+</body>
+</html>
