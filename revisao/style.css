@@ -1,0 +1,236 @@
+body {
+  background: #0a0910;
+  color: #fff;
+  font-family: Poppins, Inter, system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+.btn-roxo {
+  background: #a855d9;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-roxo:hover {
+  background: #9440c4;
+  color: #fff;
+}
+
+.logo-circulo {
+  width: 22px;
+  height: 22px;
+  border: 2px solid #a855d9;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.navbar {
+  background: #3b2459;
+}
+
+.navbar .nav-link {
+  font-size: 11px;
+}
+
+.hero {
+  background: #3b2459;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+}
+
+.hero p {
+  font-size: 12px;
+  max-width: 420px;
+  margin: 16px auto 24px;
+  color: #d9cfe8;
+}
+
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #a855d9;
+}
+
+.secao {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.secao > .container > p {
+  font-size: 12px;
+  color: #b9b0c9;
+  max-width: 480px;
+  margin: 0 auto 40px;
+}
+
+.cartao {
+  background: #2d2540;
+  border: 1px solid #3d3452;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: left;
+  height: 100%;
+}
+
+.cartao h3 {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.cartao p {
+  font-size: 11px;
+  color: #b9b0c9;
+  margin: 0;
+}
+
+.sobre {
+  background: #241d31;
+}
+
+.sobre h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #a855d9;
+}
+
+.sobre p {
+  font-size: 11px;
+  color: #c9c0d9;
+}
+
+.arte-sobre {
+  height: 220px;
+  border-radius: 14px;
+  position: relative;
+  background: linear-gradient(90deg, #a855d9, #1a1025);
+}
+
+.bolinha {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.b1 { width: 36px; height: 36px; left: 30px; top: 30px; }
+.b2 { width: 42px; height: 42px; left: 105px; top: 28px; }
+.b3 { width: 50px; height: 50px; left: 180px; top: 26px; }
+.b4 { width: 38px; height: 38px; left: 65px; top: 95px; }
+.b5 { width: 46px; height: 46px; left: 140px; top: 98px; }
+.b6 { width: 54px; height: 54px; left: 215px; top: 100px; }
+
+.depoimento {
+  text-align: center;
+}
+
+.depoimento .avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #a855d9;
+  margin: 0 auto 14px;
+}
+
+.depoimento p {
+  font-size: 10px;
+  color: #d9cfe8;
+}
+
+.depoimento strong {
+  font-size: 10px;
+}
+
+.arte-contato {
+  height: 180px;
+  border-radius: 14px;
+  position: relative;
+  background: linear-gradient(180deg, #2b1f3f, #a855d9);
+}
+
+.aro {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.a1 { width: 24px; height: 24px; left: 20px; top: 30px; }
+.a2 { width: 38px; height: 38px; left: 110px; top: 40px; }
+.a3 { width: 54px; height: 54px; left: 195px; top: 20px; }
+.a4 { width: 44px; height: 44px; left: 50px; top: 90px; }
+.a5 { width: 42px; height: 42px; left: 140px; top: 100px; }
+.a6 { width: 50px; height: 50px; left: 195px; top: 115px; }
+
+.form-contato {
+  background: #1c1727;
+  border: 1px solid #a855d9;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+}
+
+.form-contato h3 {
+  font-size: 15px;
+  color: #a855d9;
+}
+
+.form-contato p {
+  font-size: 10px;
+  color: #b9b0c9;
+  text-align: left;
+  margin: 0 0 12px !important;
+}
+
+.form-contato label {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.form-contato .form-control {
+  background: #110e18;
+  border: 1px solid #a855d9;
+  color: #fff;
+  height: 28px;
+}
+
+.form-contato textarea.form-control {
+  height: 60px;
+}
+
+.rodape {
+  background: #12101a;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.nome-rodape {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 4px 0 24px;
+}
+
+.rodape h4 {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a855d9;
+}
+
+.rodape p {
+  font-size: 10px;
+  color: #b9b0c9;
+  margin: 0 0 6px;
+}
+
+.rodape hr {
+  border-color: #2a2535;
+  margin: 30px 0 16px;
+}
